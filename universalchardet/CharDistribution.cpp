@@ -70,42 +70,42 @@ float CharDistributionAnalysis::GetConfidence()
 EUCTWDistributionAnalysis::EUCTWDistributionAnalysis()
 {
   mCharToFreqOrder = EUCTWCharToFreqOrder;
-  mTableSize = EUCTW_TABLE_SIZE;
+  mTableSize = sizeof(EUCTWCharToFreqOrder)/sizeof(EUCTWCharToFreqOrder[0]);
   mTypicalDistributionRatio = EUCTW_TYPICAL_DISTRIBUTION_RATIO;
 }
 
 EUCKRDistributionAnalysis::EUCKRDistributionAnalysis()
 {
   mCharToFreqOrder = EUCKRCharToFreqOrder;
-  mTableSize = EUCKR_TABLE_SIZE;
+  mTableSize = sizeof(EUCKRCharToFreqOrder)/sizeof(EUCKRCharToFreqOrder[0]);
   mTypicalDistributionRatio = EUCKR_TYPICAL_DISTRIBUTION_RATIO;
 }
 
 GB2312DistributionAnalysis::GB2312DistributionAnalysis()
 {
   mCharToFreqOrder = GB2312CharToFreqOrder;
-  mTableSize = GB2312_TABLE_SIZE;
+  mTableSize = sizeof(GB2312CharToFreqOrder)/sizeof(GB2312CharToFreqOrder[0]);
   mTypicalDistributionRatio = GB2312_TYPICAL_DISTRIBUTION_RATIO;
 }
 
 Big5DistributionAnalysis::Big5DistributionAnalysis()
 {
   mCharToFreqOrder = Big5CharToFreqOrder;
-  mTableSize = BIG5_TABLE_SIZE;
+  mTableSize = sizeof(Big5CharToFreqOrder)/sizeof(Big5CharToFreqOrder[0]);
   mTypicalDistributionRatio = BIG5_TYPICAL_DISTRIBUTION_RATIO;
 }
 
 SJISDistributionAnalysis::SJISDistributionAnalysis()
 {
   mCharToFreqOrder = JISCharToFreqOrder;
-  mTableSize = JIS_TABLE_SIZE;
+  mTableSize = sizeof(JISCharToFreqOrder)/sizeof(JISCharToFreqOrder[0]);
   mTypicalDistributionRatio = JIS_TYPICAL_DISTRIBUTION_RATIO;
 }
 
 EUCJPDistributionAnalysis::EUCJPDistributionAnalysis()
 {
   mCharToFreqOrder = JISCharToFreqOrder;
-  mTableSize = JIS_TABLE_SIZE;
+  mTableSize = sizeof(JISCharToFreqOrder)/sizeof(JISCharToFreqOrder[0]);
   mTypicalDistributionRatio = JIS_TYPICAL_DISTRIBUTION_RATIO;
 }
 
