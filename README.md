@@ -4,6 +4,9 @@
 * It is used by [XADMaster](https://github.com/MacPaw/XADMaster) library for filenames encoding detection
 * Originally developed by [Dag Ågren](https://github.com/DagAgren)
 
+# Usages
+
+- [The Unarchiver](https://theunarchiver.com/) application.
 
 # License
 
